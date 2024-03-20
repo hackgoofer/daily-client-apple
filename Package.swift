@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Daily",
-    platforms: [.iOS(.v13)],
+    platforms: [.visionOS(.v1)],
     products: [
         .library(
             name: "Daily",
